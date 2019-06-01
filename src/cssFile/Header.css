@@ -1,6 +1,7 @@
 .Header {
  
-  background:linear-gradient(80deg, rgba(249, 211, 1, 0.5) , rgba(246, 9, 19, 0.4));
+  /* background:linear-gradient(80deg, rgba(249, 211, 1, 0.5) , rgba(246, 9, 19, 0.4)); */
+  background-color: aquamarine;
 
   position: absolute;
   width: 100%;
