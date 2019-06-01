@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 import 'antd/dist/antd.css';
 import '../cssFile/Acard.css';
 import { Card, Icon, Avatar, Rate } from 'antd';
+import {Link} from 'react-router-dom';
 
 const { Meta } = Card;
 
@@ -21,15 +21,14 @@ class Acard extends React.Component {
                     />
                     
                 }
-                    actions={[ <Link to = '/wait'> BOOK    <Icon type="check" /> </Link>, <Link to = '/infoDoc'>Info  <Icon type="question" /></Link> ]}
-                >
+                actions={[ <Link to = '/wait'><div> BOOK    <Icon type="check" /> </div></Link>, <Link to = '/infoDoc'><div>Info  <Icon type="question" /></div></Link> ]}                >
                 <Meta
                     avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                    title="Kitpavin Chaiwong"
+                    title="asdfasd sig"
                     description="from Ramatipbadee"
                     style={{ width: 300, margin: 10, left: 100}}
                 />
-                <Rate allowHalf defaultValue={2.5} />
+                <Rate allowHalf defaultValue={2} />
             </Card>
           </div>
         );

@@ -1,0 +1,9 @@
+.set {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login {
+    width: 100%;
+}

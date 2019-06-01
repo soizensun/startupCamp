@@ -1,0 +1,14 @@
+.pic {
+    width: 390 px;
+    height: 345xpx;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.d {
+    margin: 10px;
+}
+
+

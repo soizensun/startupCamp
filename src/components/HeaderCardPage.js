@@ -1,7 +1,7 @@
 import React from 'react';
 import '../cssFile/Header.css';
 
-class Header extends React.Component {
+class HeaderCardPage extends React.Component {
     render(){
         return (
         <div className = "App">
@@ -10,10 +10,10 @@ class Header extends React.Component {
                     {/* <a ><i class="fas fa-stream fa-1x"></i></a> */}
                 </div>
                 <div className = "AppName">
-                    THERAPY      CARE
+                    Services
                 </div>
                 <div className = "LogoHeader">
-                    {/* <a ><i class="fas fa-stream fa-1x"></i></a> */}
+                    <a ><i class="fas fa-filter"></i></a>
                 </div>
             </div>
             
@@ -22,4 +22,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default HeaderCardPage;
